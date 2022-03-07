@@ -1,0 +1,17 @@
+Apache:-
+
+yum install httpd -y
+yum update -y
+systemctl start httpd
+systemctl enable httpd
+
+
+Nginix:-
+
+yum update -y
+yum install nginx2
+systemctl start nginx2
+systemctl enable nginx2
+
+
+/bin/bash
